@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 62.5%; 
+background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/1605/Amazing_nebula_stars-Expanse_Space_HD_Wallpaper_1920x1080.jpg); 
+
+}
+.container {
+    height: 100%;
+    width: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    gap: 20px;
+    
+}
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.generalform .form1 .sect1{
+    margin-bottom: 50px;
+    height: 40px;
+    width: 180px;
+    border: 1px;
+    border-radius: 50px;
+    display: flex;
+    
+}
+.generalform .form1 .sect2 {
+    margin-bottom: 50px;
+    height: 40px;
+    width: 300cm;
+    border: 1px;
+    border-radius: 50px;
+    display: flex;
+}
+.generalform .form1 .sect3 button {
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    background-color: whitesmoke;
+    place-items: center;
+    gap: 60px;
+    justify-content: space-evenly;
+    border: none;
+}
+.generalform .form1 .sect3 button img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    place-items: center;
+}
+.generalform .form1 .sect3 button :hover{
+   background-color: brown;
+   transition: 3s; 
+}
+.generalform .form1 .sect5{
+height: 40px;
+width: 300px;
+border-radius: 30px;
+background-color: darkorange;
+align-items: center;
+justify-content: center;
+display: flex;
+
+
+}
+.generalform .form1 .sect4 input {
+    font-size: 40px;
+    color: rgb(9, 9, 14);
+}
+.generalform .form1 .sect5 :hover{
+    background-color: darkgoldenrod;
+    transition: 3s;
+    -o-transition-property: all;
+}
+.img {
+    display: flex;
+    gap: 30px;
+}
+   
+
+
+
